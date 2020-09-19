@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Pacifico&display=swap');
+
+@font-face {
+    font-family: 'Simplifica';
+    src: url('../SIMPLIFICA-Typeface.ttf'); /* IE9 Compat Modes */
+    
+}
+
+/* -------------------------------------SCROLL------------------------------*/
+
+
+
+/*------------------------------- Estilos Generales----------------------------------*/
+
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; 
+
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.containers {
+    width: 100%;
+    margin: auto;
+}
+
+
+.container-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* solo valdria con esto*/
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; /*los elementos que no entran se van hacia abajo*/
+    /*flex-direction:row;*/
+
+}
+
+   .trabajamos-t{
+        text-align: center;
+    }
+    
+   
+/*------------------------------- Estilos CONTACTO-------------------------------------*/
+
+
+
+
+/*------------------------------- Estilos HEADER MENU----------------------------------*/
+
+
+
+
+
+/*------------------------------- Estilos Parte COLOR Y BOTON----------------------------------*/
+
+
+
+}
+/*------------------------------- Estilos CUERPO SERVICIOS----------------------------------*/
+
+
+.nuestros_servicios-cont{
+
+}
+
+.nuestros_servicios{
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+
+.nuestros_servicios-title{
+    margin: auto;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.servicios_img{
+    margin: auto;
+}
+
+
+.servicios_img-dir{
+    /*border: 2px solid rgba(133,220,239,.8);*/
+    padding: 20px;
+    border-radius: 50%;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    object-fit: cover;
+    
+}
+
+.servicios_txt-dir{
+    padding: 10px;
+    font-size: 1.05em;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-body{
+    margin: 10px;
+    margin-top: 0px;
+    
+}
+
+/*------------------------------- Estilos CUERPO CON QUIEN TRABAJAMOS----------------------------------*/
+
+.main-body_trabajamos {
+    margin-top: 90px;
+    background: rgba(196, 93, 14, .9);
+}
+.main-body_trabajamos .containers{
+    padding: 30px;
+    margin: auto;
+    display: block;
+}
+
+.trabajamos-img_dir{
+    height: auto;
+    width: 60px;
+    margin: auto;
+}
+
+.trabajamos-tit{  
+    margin: auto;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.trabajamos-title{
+    font-weight: 100;
+    margin: 5px;
+}
+
+.trabajamos-txt{
+    padding: 10px;
+    font-size: .8em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/*------------------------------- Estilos PARTE COLOR CON FOTO AREAS DE TRABAJO----------------------------------*/
+
+
+.description_section{
+    position: relative;
+    z-index: 1000;
+}
+
+.description{   
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.description-img{ 
+    position: relative;
+    width: 80%;
+    margin: auto !important ;
+    height: auto;
+    -webkit-box-shadow: 0 0 8px 2px gray;
+    box-shadow: 0 0 8px 2px gray;
+}
+
+.description-txt{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  
+    padding: 10px;
+    position: relative;
+    background: #d4f2fa;
+    text-align: left;
+    font-size: 1.1em;
+    -webkit-box-shadow: 0 0 10px 2px #1C869B;
+    box-shadow: 0 0 10px 2px #1C869B;
+}
+
+.description-txt_tit{
+    color: black;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    /*text-align: center;*/
+}
+.description-txt_dir{
+    font-size: .85em;
+    margin-bottom: 40px;
+}
+
+
+.description-txt h4{
+    
+}
+
+
+/*------------------------------- Estilos FOTO FIXED FINAL DE PAGINA CON BOTON----------------------------------*/
+
+.img-fixed{
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.4)), to(rgba(0,0,0,.4))), url(../img/marvin-meyer-571072-unsplash.jpg);
+    background-image:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../img/marvin-meyer-571072-unsplash.jpg);
+    background-position:center;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* <= This one */
+}
+
+.cont{
+    margin-top: 80px;
+    padding:200px 20px 200px 20px;
+    margin-bottom: 60px;
+    text-align:center;
+    color:#FFF;
+    font-weight:bold;
+}
+
+.img-fixed_txt{
+    font-size: 1.4em;
+}
+
+.img-fixed .body-title_but{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.img-fixed .body-title_but:hover{
+    background: rgba(133,220,239,.3);
+}
+
+.img-fixed .body-title_but:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0%;
+    height: 0%;
+    background: transparent;
+    border: 2px solid transparent; 
+}
+
+.img-fixed .body-title_but:hover:before{
+    -webkit-animation: animate3 .5s linear forwards;
+    animation: animate3 .5s linear forwards;
+}
+
+@-webkit-keyframes animate3{
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: white;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+
+    }
+    
+    50%{
+        width: 100%;
+        height: 0;
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: white;
+        
+    }
+    
+    100%{
+        width: 100%;
+        height: 100%;
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: white;
+    }      
+}
+
+@-webkit-keyframes animate3{
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: white;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+
+    }
+    
+    50%{
+        width: 100%;
+        height: 0;
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: white;
+        
+    }
+    
+    100%{
+        width: 100%;
+        height: 100%;
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: white;
+    }      
+}
+
+@-webkit-keyframes animate3{
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: white;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+
+    }
+    
+    50%{
+        width: 100%;
+        height: 0;
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: white;
+        
+    }
+    
+    100%{
+        width: 100%;
+        height: 100%;
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: white;
+    }      
+}
+
+@keyframes animate3{
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: white;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+
+    }
+    
+    50%{
+        width: 100%;
+        height: 0;
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: white;
+        
+    }
+    
+    100%{
+        width: 100%;
+        height: 100%;
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: white;
+    }      
+}
+
+.img-fixed .body-title_but:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0%;
+    height: 0%;
+    background: transparent;
+    border: 2px solid transparent; 
+}
+
+.img-fixed .body-title_but:hover:after{
+    -webkit-animation: animate4 .5s linear forwards;
+    animation: animate4 .5s linear forwards;
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+@-webkit-keyframes animate4{
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        
+    }
+    
+    50%{
+        width: 0;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        
+    }
+    
+    100%{
+        width: 100%;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+       
+    }
+    
+  
+}
+
+@keyframes animate4{
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        
+    }
+    
+    50%{
+        width: 0;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        
+    }
+    
+    100%{
+        width: 100%;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+       
+    }
+    
+  
+}
+/*------------------------------- Estilos FOOTER----------------------------------*/
+
+
+
+
+/*------------------------------- Estilos RESPONSIVE----------------------------------*/
+
+
+@media screen and (min-width:0px){
+    
+
+    
+}
+    
+
+
+@media screen and (min-width:333px){
+    
+  
+}
+    
+@media screen and (min-width:480px){
+    
+
+    
+  
+    
+.col50{
+     width: 49%;
+    }
+    
+   
+} 
+
+
+
+
+@media screen and (min-width:768px){
+    
+  
+    
+  /*------------------------------- 768px PARTE COLOR BOTON-------------*/  
+ 
+    
+/*------------------------------- 768px PARTE SERVICIOS-------------*/  
+    .column50{
+        width: 49%;
+    }
+    
+    .nuestros_servicios{   
+        font-size: 1.3em;
+    }
+    
+    .main-body{     
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .servicios_img-dir{   
+        height: 250px;
+        width: 250px;
+    }
+
+    .servicios_txt-dir{
+        text-align: left;
+        padding: 10px;
+        font-size: 1.1em;
+        
+    }
+    
+  /*------------------------------- 768px PARTE TRABAJAMOS CON-------------*/     
+    .trabajamos-txt{
+        font-size: 1.15em;
+        padding: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .trabajamos-tit{
+        font-size: 1.3em;
+    }
+    
+ 
+/*------------------------------- 768px PARTE AREAS DE TRABAJO-------------*/     
+    
+    .description-txt h4{
+        font-size: 1.05em;
+    }
+    
+    .description-txt_dir{
+        font-size: .9em;
+    }
+/*------------------------------- 768px PARTE PARALLAX---------------------*/ 
+    .cont{
+        font-size: 1.1em;
+    }
+/*------------------------------- 768px PARTE FOOTER------------------------*/     
+   
+}
+
+
+@media screen and (min-width:1024px){
+
+    
+/*------------------------------- 1024px PARTE IMAGEN AREA TRBAJO DESCRIPCION CON BOTON-------------*/  
+    
+  
+  
+    
+    
+   .description{
+        width: 100%;
+        margin: auto;
+        position: relative;
+        right: 9%;  
+        margin-top: 110px;
+    }
+    
+    .description-img{  
+        width: 45%;
+        margin: auto;      
+    }
+
+    
+   .description-txt{      
+       padding: 20px;
+       max-width: 40%;
+       position: relative;
+       top: -220px;
+       left: 25%;
+       margin-bottom: -200px;
+           
+    }
+     .description-txt h3{
+        font-size: 1.35em;
+    }
+     .description-txt h4{
+        font-size: 1.15em;
+    }
+    
+    .description-txt_dir{
+        font-size: 1em;
+    }
+    
+    /*------------------------------- 1024px PARTE COLOR BOTON-------------*/   
+   
+    /*MENU*/
+    
+     /*------------------------------- 1024px PARTE MAIN MENU-------------*/  
+    
+  
+   
+    
+    .trabajamos-img_dir{
+        height: auto;
+        margin: auto;
+    }
+    
+  
+   /*------------------------------- 1024px PARTE SERVICIOS-------------*/    
+    .main-body{
+        width: 1000px;
+        margin: auto;
+    }
+    
+    .servicios_txt-dir{
+        font-size: 1.1em;
+    }
+    /*------------------------------- 1600px PARTE TRABAJAMOS CON-------------*/  
+
+    
+      .trabajamos-txt{
+        font-size: 1.4em;
+        padding: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .trabajamos-tit{
+        font-size: 1.3em;
+    }
+    
+
+   
+    
+@media screen and (min-width:1600px){
+    
+
+   /*------------------------------- 1600px PARTE FOTO DESCRIPTION COLOR BOTON-------------*/  
+    
+    .description{
+        width: 100%;
+        position: relative;
+        right: 8%;  
+        margin-top: 110px;
+    }
+    
+    .description_img_1{
+       position: relative;
+       height: auto;
+       right: -50px;
+       margin: auto; 
+    }
+    
+    .description-img{  
+        width: 45%;           
+    }
+
+    
+   .description-txt{      
+       padding: 20px;
+       max-width: 30%;
+       position: relative;
+       top: -300px;
+       left: 20%;
+       margin-bottom: -250px;
+           
+    }
+    
+    .description-txt h3{
+        font-size: 1.4em;
+    }
+    
+    .description-txt h4{
+        font-size: 1.25em;
+    }
+    
+    .description-txt_dir{
+       font-size:  1em;
+    }
+    
+    .description-img{
+        width: 45%;
+    }
+    
+     /*------------------------------- 1600px PARTE COLOR BOTON-------------*/  
+
+    
+    
+    .servicios_img-dir{
+        
+        width: 300px;
+        height: 300px;
+        
+    }
+/*------------------------------- 1600px PARTE TRABAJAMOS CON-------------*/  
+
+    
+  
+/*------------------------------- 1600px FUENTES BODY-------------*/  
+
+    .nuestros_servicios-title{
+        font-size: 1.6em;
+        margin-bottom: 20px;
+    }
+    
+    .servicios_txt-dir{
+        padding: 10px;
+        font-size: 1.2em;
+        text-align: left;
+        padding: 10px;
+    }
+    
+
+
+.column{ 
+    margin-right: auto;
+    text-align: left;
+}
+
+    
+    
+    .trabajamos-tit{  
+        margin: auto;
+        font-size: 1.7em;
+        text-align: center;
+    }
+    .trabajamos-txt{
+        color: #626262;
+        padding: 10px;
+        font-size: 1.1em;
+        text-align: center;
+        padding: 10px;
+    }
+
+   
+}
+    
+    
+    
+
+    
+    
+    /*PRUEBAS/////////////////////////////////*/
+    
+   
+    
+    body{
+        background-color: rgba(0,0,0, .04)
+    }
+    
+    #services{
+        padding: 20px;
+    }
+    
+    .icono-form{
+        color: #626262 !importsant;
+    }
+    
+
+    
+  
+    
+     #contact a{
+          color: #403A3A;
+    }
+    
+    #contact{
+        position: relative;
+        z-index: 100;
+    }
+    /*ESTILOS FOOTER ////////////////////////////*/
+
+
+
+    .container2{
+        margin-top: -200px;
+        
+    }
+    
+    
+    
+    #services{
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+    
+
+   
+   

@@ -1,0 +1,115 @@
+
+.container__main{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+
+.layout {
+   display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    text-align: center;
+
+  }
+
+.layout .layout__item{
+     -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 20px;
+   
+}
+
+.img-about{
+    width: 100%;
+    background-image: url("../assets/img/empresa2.jpg");
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -200px;
+
+}
+
+  
+@media(max-width: 1300px){
+    .layout .layout__item {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      flex: wrap;
+      max-width: 100%;
+    }
+    
+    .layout__item--figure{
+        display: none;
+    }
+    
+}
+    @media(max-width: 1600px){
+
+    .layout{
+                    margin: 30px
+    }
+
+    }
+}
+
+
+
+body {
+  line-height: 1.5em;
+}
+
+h2 {
+  line-height: 1.2;
+  
+}
+
+.container__main h2{
+    margin-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+
+.layout__item--figure img {
+    margin-bottom: 20px;
+}
+
+
+/* ESTILOS IMAGEN EDUCACION*/
+
+.img-educacion{
+    width: 100%;
+    background-image: url("../assets/img/educacion.jpg");
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+  body{
+        background-color: rgba(0,0,0,.06);
+            overflow-x: hidden;
+    }
+

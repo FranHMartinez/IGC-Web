@@ -1,0 +1,165 @@
+
+#about{
+    margin-bottom: -130px;
+}
+
+.container__main{
+    width: 100%;
+        text-align: center;
+    
+    
+ 
+}
+
+.container__main .cards{
+    max-width: 1500px;
+padding-left: 15px;
+    padding-right: 15px;
+        margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+
+.layout__item{
+     -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+ 
+    
+}
+
+
+.layout {
+   display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+@media(max-width: 767px){
+    .content .col {
+      -ms-flex: 0 0 100%;
+      -webkit-box-flex: 0;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  } 
+
+body {
+  line-height: 1.5em;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.2;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+/* ESTILOS IMAGEN EDUCACION*/
+
+.img-educacion{
+    width: 100%;
+    background-image: url("../assets/img/sectores2.jpg");
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+  body{
+        background-color: rgba(0,0,0,.1)
+    }
+
+@media screen and (min-width:1024px){
+    .img-educacion{
+    height: 30vh;
+}
+    
+}
+
+/* TARJETAS **************/
+
+.cards{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.card{
+    display: inline-block;
+    margin: 30px;
+    margin-bottom: 50px;
+   -webkit-box-shadow: 7px 8px 4px 0px rgba(46,110,152,0.67); 
+box-shadow: 7px 8px 4px 0px rgba(46,110,152,0.67);
+
+}
+
+.trabajamos-tit{
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    border: 5px groove rgba(0,0,0,1);
+  -webkit-box-shadow: 19px -24px 4px 6px rgba(196, 93, 14, 1); 
+    box-shadow: 19px -24px 4px 6px rgba(196, 93, 14, 1);
+
+}
+    
+@media(min-width: 1400px){
+   .container__main .cards{
+        max-width: 1200px;
+
+}
+  } 
+
+@media(max-width: 1400px){
+.trabajamos-tit{
+   
+   padding: 20px;
+     -webkit-box-shadow: 19px -24px 2px 2px rgba(196, 93, 14, 1); 
+    box-shadow: 19px -20px 2px 2px rgba(196, 93, 14, 1);
+    font-size: .9em;
+
+}
+  } 
+
+@media(max-width: 980px){
+.trabajamos-tit{
+   
+   padding: 20px;
+     -webkit-box-shadow: 19px -24px 2px 2px rgba(196, 93, 14, 1); 
+    box-shadow: 19px -20px 2px 2px rgba(196, 93, 14, 1);
+    font-size: .8em;
+
+}
+  } 
+
+
+
+@media(max-width: 768px){
+.trabajamos-tit .trabajamos-title{
+    font-size: 1.2em;
+
+}
+  } 
+
+ 
